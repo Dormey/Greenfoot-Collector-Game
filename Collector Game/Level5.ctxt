@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Level5
+comment0.text=\n\ This\ builds\ the\ level\ 5\ world.\ \n\ Uses\ methods\ from\ LevelBase\ to\ build\ the\ level.\n\ \n\ This\ level\ is\ kind\ of\ a\ troll\ level\ as\ it\ just\ has\ \n\ a\ bunch\ of\ ghosts\ and\ one\ giant\ ruby.\n\ \n\ I\ just\ wanted\ the\ last\ level\ to\ be\ funny\ and\ stand\ out\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/15\n
+comment1.params=p1\ p2\ n
+comment1.target=Level5(Player,\ Player,\ int)
+comment1.text=\n\ Calls\ the\ methods\ from\ levelbase\ that\ are\ \n\ required\ to\ build\ the\ level.\n\ \n\ The\ int\ n\ parameter\ is\ used\ for\ spawning\ in\n\ the\ correct\ number\ of\ players.\n\ \n\ The\ players\ for\ the\ level\ are\ passed\ as\ \n\ parameters\ so\ that\ they\ keep\ their\n\ score\ when\ advancing\ to\ the\ next\ level.\n\ \n\ This\ level\ is\ different\ from\ the\ others,\ as\ it\ only\n\ has\ one\ giant\ ruby\ and\ the\ only\ enemies\ are\n\ a\ swarm\ of\ ghosts\n\ \n\ I\ also\ gave\ this\ level\ some\ cool\ looking\ walls\n\ that\ have\ red\ accents\n\ \n\ @param\ int\ n\n\ @param\ Player\ p1\n\ @param\ Player\ p2\n\ @return\ \n
+comment2.params=
+comment2.target=void\ spawnWalls()
+comment2.text=\n\ Spawns\ in\ the\ wall\ obstacles\ for\ each\ level.\n\ \n\ @param\n\ @return\ \n
+comment3.params=numg
+comment3.target=void\ spawnGhosts(int)
+comment3.text=\n\ Spawns\ in\ swarms\ of\ ghosts\ in\ random\ locations,\n\ this\ is\ the\ only\ level\ that\ does\ this.\n\ \n\ Since\ I\ have\ no\ other\ objects\ in\ the\ world\ except\n\ the\ big\ ruby,\ scoreboard,\ and\ player(s),\ I\ can\ just\n\ change\ the\ area\ that\ the\ ghosts\ can\ spawn.\ By\ doing\n\ this\ I\ avoid\ the\ need\ for\ a\ boolean\ method\n\ that\ checks\ if\ the\ ghosts\ can\ be\ spawned\ in\ a\ location\n\ \n\ @params\:\ int\ numg\n\ @return\:\ none\n
+comment4.params=
+comment4.target=void\ getWinner()
+comment4.text=\n\ If\ in\ 1\ player\ mode,\ creates\ a\ message\ stating\ the\ \n\ number\ of\ rubies\ that\ you\ got\ away\ with\n\ \n\ If\ in\ 2\ player\ mode\ checks\ which\ player\ got\ more\ rubies\n\ and\ creates\ a\ message\ for\ them,\ if\ its\ a\ tie\ it\ justs\ creates\ a\ \n\ message\ for\ all\ players\n\ \n
+comment5.params=
+comment5.target=void\ detectLevelEnd()
+comment5.text=\n\ Detects\ if\ the\ megaRuby\ has\ been\ collected\ and\ then\n\ creates\ the\ message\ string.\ Then\ sets\ the\ world\ to\ the\ winScreen\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\n\ Calls\ the\ methods\ needed\ for\ the\ level\n\ to\ function\ properly\n\ \n\ @params\n\ @return\n
+numComments=7

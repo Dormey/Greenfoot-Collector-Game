@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Rubies
+comment0.text=\n\ This\ is\ the\ class\ for\ the\ rubies\n\ Rubies\ are\ the\ item\ that\ the\ player(s)\ are\ \n\ trying\ to\ pick\ up\ in\ each\ level.\n\ \n\ Rubies\ can\ check\ if\ they\ can\ spawn\n\ in\ a\ location\ to\ enable\ efficient\ \n\ random\ location\ spawning\n\ \n\ @author\ Dante\ Romey\ \n\ @version\ 2019/11/16\n
+comment1.params=
+comment1.target=Rubies()
+comment1.text=\n\ Creates,\ scales,\ and\ sets\ \n\ the\ rubies\ class\ image\ \n\ \n\ Note\ that\ all\ the\ code\ for\ the\ rubies\ functions\n\ are\ in\ the\ player\ class\n
+comment2.params=
+comment2.target=boolean\ canPlace()
+comment2.text=\n\ Checks\ whether\ or\ not\ a\ ruby\ can\ be\ placed\ in\ \n\ a\ specific\ location,\ depending\ on\ if\ there\ are\ \n\ other\ objects\ intersecting\ it\ or\ too\ close\ by\n\ \n\ @return\ boolean\n
+numComments=3

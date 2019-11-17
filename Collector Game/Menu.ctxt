@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Menu
+comment0.text=\n\ Main\ menu/title\ screen\ for\ game.\n\ Has\ button\ to\ proceed\ to\ Menu2.\n\ \n\ Also\ has\ some\ pictures\ of\ items\ and\n\ brief\ explanations\ of\ what\ they\ do\ and\ text\ explaining\ \n\ how\ to\ move\ around\n\ \n\ @author\ Dante\ Romey\ \n\ @version\ 2019/11/15\n
+comment1.params=
+comment1.target=Menu()
+comment1.text=\n\ Creates,\ scales,\ and\ sets\ the\ image\ for\n\ the\ menu\ background\n\ \n\ Adds\ in\ the\ button\ needed\n\ \n\ Adds\ in\ the\ hepful\ objects\ and\ text\ that\ breifly\ explain\n\ what\ certain\ objects\ do\ and\ also\ how\ to\ move\n
+comment2.params=
+comment2.target=void\ detectClick()
+comment2.text=\n\ Detects\ if\ the\ mouse\ has\ clicked\ the\ start\ button,\ \n\ and\ then\ it\ sets\ the\ world\ to\ the\ next\ menu\ screen\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Calls\ methods\ needed\ for\ Menu\ to\ function\n
+numComments=4

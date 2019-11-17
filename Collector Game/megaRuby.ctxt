@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=megaRuby
+comment0.text=\n\ This\ is\ just\ a\ ruby\ but\ its\ a\ mega,\ giant\ one\!\n\ \n\ Its\ the\ only\ ruby\ in\ the\ last\ level\ and\ its\ worth\ 10\n\ rubies\n\ \n\ Just\ used\ it\ in\ last\ level\ to\ make\ last\ level\n\ special\ and\ cool\n\ \n\ @author\ (Dante\ Romey)\ \n\ @version\ (1.0)\n
+comment1.params=
+comment1.target=megaRuby()
+comment1.text=\n\ @name\:\ Constructor\n\ @params\:\ none\n\ @return\:\ none\n\ \n\ Creates\ the\ image\ for\ the\ mega\ ruby\ and\ scales\ it\ \n
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Trap
+comment0.text=\n\ The\ trap\ class\ is\ an\ object\ that\ is\ what\ it\ sounds\n\ like,\ a\ trap.\n\ \n\ If\ the\ player\ runs\ into\ a\ trap\ they\ will\ lose\ a\ ruby,\n\ and\ the\ trap\ will\ get\ deleted\n\ \n\ If\ a\ spike\ is\ maneuvered\ to\ run\ into\ a\ trap\ it\ will\ remove\n\ the\ trap\ and\ itself.\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/16\n
+comment1.params=
+comment1.target=Trap()
+comment1.text=\n\ Creates,\ scales\ and\ sets\ the\ trap's\ image.\n\ \n\ Note\ that\ most\ of\ the\ code\ for\ the\ trap's\ functions\n\ is\ in\ other\ classes.\n
+comment2.params=
+comment2.target=boolean\ canPlace()
+comment2.text=\n\ Checks\ whether\ or\ not\ a\ trap\ can\ be\ placed\ in\ \n\ a\ specific\ location,\ depending\ on\ if\ there\ are\ \n\ other\ objects\ intersecting\ it\ or\ too\ close\ by.\n\ \n\ @return\ boolean\n
+numComments=3

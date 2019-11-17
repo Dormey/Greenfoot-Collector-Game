@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Buttons
+comment0.text=\n\ Buttons\ is\ just\ a\ class\ to\ make\ button\ objects,\n\ there\ is\ really\ not\ much\ else\ to\ it\n\ \n\ It\ takes\ an\ image\ and\ some\ params\ and\ scales\ it\n\ to\ make\ a\ button\n\ \n\ I\ only\ have\ 3\ buttons\ so\ I\ made\ custom\ sprite\ images\ \n\ instead\ of\ just\ using\ regular\ fonts.\ They\ are\ kind\ of\n\ ugly,\ but\ what\ can\ I\ say\ lol.\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/16\n
+comment1.params=img\ scaleX\ scaleY
+comment1.target=Buttons(greenfoot.GreenfootImage,\ int,\ int)
+comment1.text=\n\ Creates\ the\ image\ for\ the\ button\ with\ the\ image\ param\ \n\ and\ scales\ it\ by\ using\ the\ integer\ parameters\ provided\ \ \n\ \n\ @param\ GreenfootImage\ img\n\ @param\ int\ scaleX\n\ @param\ int\ scaleY\n
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Menu2
+comment0.text=\n\ This\ class\ is\ the\ 2nd\ Menu\ screen\ after\ the\ title\ screen.\n\ It\ has\ 2\ buttons\ for\ selecting\ 1\ or\ 2\ player\ mode\ for\ the\ game\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/15\n
+comment1.params=
+comment1.target=Menu2()
+comment1.text=\n\ Creates,\ scales,\ and\ sets\ the\ image\ for\n\ the\ menu's\ background\n\ \n\ Also\ adds\ in\ the\ 2\ buttons\n
+comment2.params=
+comment2.target=void\ detectClick()
+comment2.text=\n\ Detects\ if\ the\ mouse\ has\ clicked\ a\ button\n\ and\ if\ so,\ initializes\ level\ 1\ with\ the\ correct\n\ number\ of\ players\ corresponding\ to\ the\ button\ clicked\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Calls\ methods\ required\ for\ the\ level\ to\ function\n
+numComments=4

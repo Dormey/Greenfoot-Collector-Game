@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=LevelBase
+comment0.text=\n\ This\ class\ is\ used\ to\ create\ and\ contain\ \n\ methods\ that\ all\ the\ sub-classes\ (levels)\n\ will\ use\ to\ build\ themselves.\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/13\n
+comment1.params=
+comment1.target=LevelBase()
+comment1.text=\n\ Sets\ the\ size\ of\ the\ worlds\ /\ levels\ \n\ (super),\ and\ sets\ the\ background\ image\n\ \n\ @param\ \n\ @return\ \n
+comment2.params=p1\ p2\ n
+comment2.target=void\ spawnPlayers(Player,\ Player,\ int)
+comment2.text=\n\ Looks\ at\ the\ number\ of\ players\ to\ spawn\ and\ then\n\ spawns\ in\ either\ one\ or\ both\ players.\n\ \n\ By\ passing\ the\ players\ as\ params\ instead\ of\ making\n\ new\ ones\ each\ time,\ the\ players\ keep\ their\ score\ through\ the\ levels.\n\ \n\ Spawning\ in\ a\ player\ also\ removes\ any\ previously\ obtained\n\ speed\ buffs\ or\ debuffs.\n\ \n\ @param\ Player\ p1\n\ @param\ Player\ p2,\ \n\ @param\ int\ n\n\ @return\ \n\ \n
+comment3.params=numRubies
+comment3.target=void\ spawnRubies(int)
+comment3.text=\n\ Spawns\ in\ the\ correct\ amount\ of\ rubies\ (numRubies)\ \n\ in\ random\ locations\ while\ also\ checking\ if\ the\ \n\ rubies\ can\ even\ be\ placed\ at\ the\ randomly\ chosen\ location.\ It\n\ does\ this\ by\ using\ the\ canPlace()\ method\ from\ the\ ruby\ class.\n\ \n\ If\ a\ ruby\ cannot\ be\ placed\ in\ a\ location\ than\ it\n\ is\ removed\ and\ respawned\ in\ a\ different\ random\ \n\ location\n\ \n\ @param\ int\ numRubies\n\ @return\ \n\ \n
+comment4.params=numTraps
+comment4.target=void\ spawnTraps(int)
+comment4.text=\n\ Randomly\ spawns\ the\ correct\ amount\ of\ traps\ (numTraps)\n\ in\ random\ locations\ while\ also\ checking\ if\ the\ traps\ can\ \n\ be\ placed\ at\ the\ chosen\ location.\ It\ does\ this\ by\ using\ the\ canPlace()\n\ method\ from\ the\ trap\ class\n\ \n\ If\ a\ trap\ cannot\ be\ placed\ in\ a\ location\ than\ it\n\ is\ removed\ and\ respawned\ in\ a\ different\ random\ \n\ location\n\ \n\ \n\ @param\ int\ numTraps\n\ @return\n
+comment5.params=
+comment5.target=void\ spawnBorder()
+comment5.text=\n\ Spawns\ in\ the\ border\ for\ the\ level.\n\ The\ border\ is\ just\ a\ bunch\ of\ walls\n\ that\ stop\ the\ player\ from\ walking\ off\ the\ edge\n
+comment6.params=numplyrs
+comment6.target=void\ spawnSB(int)
+comment6.text=\n\ Spawns\ in\ a\ scoreboard\ displaying\n\ the\ scores\ of\ the\ player(s).\ Uses\ the\ numplyrs\ param\ to\ \n\ determine\ whether\ to\ display\ scores\ for\ 1\ or\ 2\ players\n\ \n\ @params\ int\ numplyrs\n\ @return\ \n\ \n
+comment7.params=
+comment7.target=void\ deleteRubies()
+comment7.text=\n\ Deletes\ all\ the\ rubies\ on\ the\ current\ level.\n\ I\ used\ this\ for\ skipping\ over\ levels\ while\ testing,\n\ because\ once\ the\ level\ detcts\ that\ there\ are\ no\n\ rubies\ remaining,\ it\ advances\ to\ the\ next\ one\n
+numComments=8

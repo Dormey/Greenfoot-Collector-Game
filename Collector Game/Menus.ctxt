@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Menus
+comment0.text=\n\ Menus\ is\ just\ a\ class\ to\ hold\ the\ subclasses\ which\ will\ \n\ actually\ be\ menu\ screens\n\ \n\ Honestly\ I\ only\ have\ this\ class\ to\ be\ able\ to\ have\ the\ 2\ menus\n\ as\ subclasses\ because\ I\ like\ the\ way\ it\ looks\ in\ the\ program(more\n\ organized)\ \ \ \ \ \ \n\ \n\ Also\ I\ don't\ have\ to\ specify\ world\ size\ for\ each\ menu\n\ because\ it\ does\ it\ here\ in\ the\ parent\ class\n\ \n\ @author\ Dante\ Romey\ \n\ @version\ 2019/11/15\n
+comment1.params=
+comment1.target=Menus()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Menus.\n\ \n\ All\ it\ does\ is\ set\ the\ world\ size\ to\ 960x720\n
+numComments=2

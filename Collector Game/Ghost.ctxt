@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Ghost
+comment0.text=\n\ The\ ghost\ class\ is\ an\ enemy.\n\ Ghosts\ automatically\ move\ around\ the\ world,\ and\n\ if\ a\ player\ gets\ touched\ by\ one,\ they\ lose\ rubies\ and\ have\ to\ respawn\n\ at\ the\ starting\ location.\n\ \n\ If\ a\ player\ comes\ to\ close\ then\ the\ ghosts\ will\ get\ mad,\n\ they\ will\ take\ on\ a\ reddish\ tint\ and\ their\ speed\ will\ increase\n\ \n\ @author\ Dante\ Romey\ \n\ @version\ 2019/11/16\n
+comment1.params=dir
+comment1.target=Ghost(java.lang.String)
+comment1.text=\nSets\ the\ ghost's\ direction\ with\ the\ string\ parameter.\nInitiates\ the\ array\ of\ images,\ speed,\ and\ cx\ /\ cy,\ and\ \ngives\ them\ values\ if\ applicable.\n\nIt\ also\ scales\ the\ images\ properly\ so\ that\ they\ look\ good.\n\nAlso\ checks\ if\ the\ ghost\ is\ frozen\ (for\ that\ one\ ghost\ on\ the\ menu\ screen)\n\n\ @param\ Sting\ dir\n
+comment2.params=
+comment2.target=void\ changeDir()
+comment2.text=\n\ Detects\ if\ a\ ghost\ has\ hit\ a\ wall\ and\ then\n\ changes\ the\ ghost's\ direction\ to\ go\ the\n\ opposite\ way.\n\ \n\ Also\ moves\ the\ ghost\ back\ a\ bit\ to\ avoid\ a\ bug\ where\n\ the\ ghost\ gets\ stuck\ in\ a\ wall\ just\ changing\ directions\n\ repeatedly\n
+comment3.params=
+comment3.target=void\ movement()
+comment3.text=\n\ Checks\ the\ ghost's\ direction\ and\ makes\n\ it\ move\ accordingly.\ It\ does\ movement\ by\ changing\ the\ cx\ /\ cy\n\ variables\ to\ either\ -speed\ or\ speed,\ and\ then\ setting\ the\ \n\ location\ of\ the\ Ghost\ to\ it's\ current\ location\ +\ cx\ and\ cy.\ \n\ This\ is\ useful\ because\ we\ can\ use\ it\ to\ easily\ do\ collision\ and\n\ other\ things.\n\ \n\ Also\ changes\ the\ ghost's\ image\ depending\n\ on\ what\ direction\ they\ are\ facing.\n
+comment4.params=
+comment4.target=void\ checkMad()
+comment4.text=\n\ Detects\ if\ a\ player\ has\ gotten\ too\ close\n\ to\ a\ ghost\ and\ then\ makes\ the\ ghost\ mad.\n\ \n\ When\ a\ ghost\ gets\ mad\ their\ eyesm,\ mouth,\ and\ body\ \n\ become\ red\ and\ their\ speed\ increases\n
+comment5.params=
+comment5.target=void\ freeze()
+comment5.text=\n\ Checks\ if\ the\ ghost's\ direction\ is\ set\ to\ "f"\n\ and\ then\ sets\ its\ image\ and\ chanegs\ its\ speed\ to\ 0.\n\ \n\ I\ just\ used\ this\ so\ I\ could\ have\ an\ unmoving\ Ghost\n\ on\ the\ menu\ screen.\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\n\ Calls\ the\ methods\ required\ for\ the\ ghost\n\ class\ to\ function\ properly\n
+numComments=7

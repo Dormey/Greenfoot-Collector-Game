@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Slower
+comment0.text=\n\ The\ slower\ class\ is\ an\ item\ that\n\ makes\ the\ player\ walk\ slowly\ if\ the\ player\n\ touches\ it\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/16\n
+comment1.params=
+comment1.target=Slower()
+comment1.text=\n\ Sets\ the\ image\ for\ the\ slower\ item.\n\ \n\ All\ the\ actual\ code\ for\ slowing\ the\ player\n\ is\ located\ in\ the\ player\ class\ because\ it\ makes\n\ more\ sense.\n\ \n\ I\ also\ made\ the\ player\ remove\ the\ slower\ when\ it\ \n\ touched\ it\ instead\ of\ the\ slower\ doing\ that\ itself,\n\ this\ was\ to\ avoid\ the\ same\ bug\ where\ the\ object\ would\ remove\ itself\n\ before\ the\ player\ could\ sense\ that\ it\ was\ touching\ the\ object\ and\ react.\n
+numComments=2

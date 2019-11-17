@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ScoreBoard
+comment0.text=\n\ This\ is\ the\ class\ for\ the\ scoreboard.\n\ The\ scoreboard\ automatically\ displays\n\ and\ updates\ the\ player(s)\ score\ /\ number\ of\ rubies\n\ in\ real\ time.\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/16\n
+comment1.params=s
+comment1.target=ScoreBoard(int)
+comment1.text=\n\ Sets\ the\ scoreboard\ sbn\ to\ be\ the\ s\ parameter,\n\ which\ will\ be\ equal\ to\ the\ number\ of\ players\ that\ are\n\ playing\ the\ game.\n\ \n\ This\ is\ so\ that\ if\ there\ is\ only\ one\ player\ playing,\n\ the\ scoreboard\ will\ only\ display\ "P1\ Score\:\ (score)\ ".\ If\ there\ were\n\ 2\ players,\ it\ would\ display\ "P1\ Score\:\ (score)\ \\n\ P2\ Score\:\ (score).\n\ \n\ @param\ int\ sbn\n
+comment2.params=
+comment2.target=void\ updateScore()
+comment2.text=\n\ Updates\ the\ scores\ string\ that\ \n\ the\ scoreboard\ image\ displays\ with\ the\ correct\ values\ for\ the\ \n\ player(s)\ rubies.\n\ \n\ Also\ changes\ the\ textsize\ that\ will\ be\ used\ depending\n\ on\ how\ much\ text\ needs\ to\ fit\ into\ the\ image.\n\ \n\ It\ then\ sets\ the\ scoreboard\ image\ and\ makes\ it\ a\ little\n\ transparent.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Calls\ the\ updateScore\ method\ so\ that\ the\ scoreboard\ can\ continuously\ update\n\ and\ display\ the\ correct\ scores\n
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Level2
+comment0.text=\n\ This\ builds\ the\ level\ 2\ world.\n\ Uses\ methods\ from\ LevelBase\ to\ build\ the\ level\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/14\n
+comment1.params=p1\ p2\ n
+comment1.target=Level2(Player,\ Player,\ int)
+comment1.text=\n\ Calls\ the\ methods\ from\ levelbase\ that\ are\ \n\ required\ to\ build\ the\ level.\n\ \n\ Also\ calls\ spawnOthers\ and\ spawnWalls\n\ because\ those\ are\ specific\ to\ each\ level.\n\ \n\ The\ int\ n\ parameter\ is\ used\ for\ spawning\ in\n\ the\ correct\ number\ of\ players.\n\ \n\ The\ players\ for\ the\ level\ are\ passed\ as\ \n\ parameters\ so\ that\ they\ keep\ their\n\ score\ when\ advancing\ to\ the\ next\ level.\n\ \n\ @param\ int\ n\n\ @param\ Player\ p1\n\ @param\ Player\ p2\n\ @return\ \n
+comment2.params=
+comment2.target=void\ spawnOthers()
+comment2.text=\nSpawns\ in\ other\ objects\ for\ the\ level\n\ such\ as\ ghosts,\ spikes,\ and\ speed\ items.\n\ \n\ @param\ \n\ @return\n
+comment3.params=
+comment3.target=void\ spawnWalls()
+comment3.text=\n\ Spawns\ in\ the\ wall\ obstacles\ for\ each\ level.\n\ \n\ @param\n\ @return\ \n
+comment4.params=
+comment4.target=void\ levelAdvance()
+comment4.text=\nDetects\ if\ there\ are\ no\ more\ rubies\ in\ the\ world\ and\ \n\ then\ advances\ the\ world\ to\ the\ next\ level\ /\ screen\n\ \n\ @param\n\ @return\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\nCalls\ the\ methods\ needed\ for\ the\ level\n\ to\ function\ properly\n\ \n\ @params\n\ @return\n
+numComments=6

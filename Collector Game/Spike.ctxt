@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Spike
+comment0.text=\n\ The\ spike\ class\ is\ an\ enemy\ that\ follows\n\ the\ player\ if\ it\ gets\ to\ close.\ The\ player\ loses\ \n\ rubies\ if\ it\ gets\ caught\ by\ a\ spike\n\ \n\ If\ the\ player\ runs\ out\ of\ the\ spikes\ range\ the\ spike\ will\ deactivate\n\ until\ a\ player\ gets\ back\ in\ range\ and\ then\ continue\n\ to\ track.\ This\ is\ unlikely\ though,\ because\ the\ spikes\ range\n\ becomes\ very\ large\n\ \n\ You\ can\ use\ spikes\ to\ your\ advantage\ sometimes\ by\n\ by\ making\ them\ run\ into\ traps\ and\ ghosts\ to\ kill\ them.\n\ \n\ You\ can\ get\ rid\ of\ spikes\ by\ running\ them\ into\ walls\ or\ \n\ doing\ as\ mentioned\ above\n\ \n\ @author\ Dante\ Romey\ \n\ @version\ 2019/11/16\n
+comment1.params=rot
+comment1.target=Spike(int)
+comment1.text=\n\ Creates\ two\ images\ for\ the\ spike\ (active\ &\ inactive)\n\ and\ scales\ them.\n\ \n\ Initializes\ range\ to\ the\ range\ chosen.\n\ \n\ Initializes\ active\ to\ false\n\ \n\ It\ also\ uses\ the\ int\ rot\ param\ to\ set\ the\ initial\ \n\ rotation\ of\ the\ spike.\n\ \n\ @param\ int\ rot\ \n
+comment2.params=
+comment2.target=void\ track()
+comment2.text=\n\ Detects\ if\ a\ player\ has\ entered\ into\ range,\n\ and\ if\ so,\ activates\ the\ spike\ causing\ it\n\ to\ turn\ towards\ the\ player\ and\ move\ to\ it.\n\ \n\ It\ also\ changes\ the\ range\ to\ stretch\ across\ a\ large\n\ area,\ so\ that\ the\ spike\ doesn't\ deactivate\ and\ activate\n\ continuously,\ because\ when\ it\ did\ that\ before\ it\ was\ boring.\n
+comment3.params=
+comment3.target=void\ checkHit()
+comment3.text=\n\ Detects\ if\ a\ spike\ has\ run\ into\ a\ wall,another\ spike,\ a\ trap,\ or\ a\ ghost.\n\ \n\ If\ it\ has\ and\ it\ is\ active\ (active\ \=\=true)\ then\ it\ will\ remove\ itself\ from\ the\n\ world.\n\ \n\ In\ the\ case\ of\ other\ spikes,\ traps,\ and\ ghosts\n\ the\ spike\ will\ remove\ the\ objects\ its\ touching\ as\ well.\n\ \n\ I\ made\ the\ spike\ remove\ the\ objects\ to\ avoid\ a\ bug\ where,\n\ if\ all\ objects\ removed\ themselves\ individually,\ some\ objects\n\ would\ be\ removed\ before\ other\ objects\ could\ detect\ collision\n\ and\ react.\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\n\ Calls\ the\ methods\ required\ for\ the\ spike\n\ class\ to\ function\ properly.\n
+numComments=5

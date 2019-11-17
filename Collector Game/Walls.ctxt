@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Walls
+comment0.text=\n\ This\ is\ the\ class\ for\ the\ walls\ that\ I\ use\ in\ the\ game,\n\ Players\ and\ actors\ cannot\ walk\ through\ walls\n\ \n\ It\ allows\ you\ to\ add\ in\ new\ walls\ with\ parameters\ \n\ to\ select\ the\ length\ and\ rotation\n\ \n\ @author\ Dante\ Romey\ \n\ @version\ 2019/11/16\n
+comment1.params=length\ rotation
+comment1.target=Walls(int,\ int)
+comment1.text=\n\ Creates\ the\ image\ for\ the\ wall\ and\ scales\ it\n\ using\ the\ length\ param.\ \n\ \n\ Sets\ the\ wall's\ rotation\ using\ the\ rotation\ param.\n\ \n\ @param\ int\ length\n\ @param\ int\ rotation\n
+numComments=2

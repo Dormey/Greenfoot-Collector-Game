@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WallsEvil
+comment0.text=\n\ Walls\ evil\ are\ basically\ just\ the\ same\ thing\ as\ walls\n\ but\ they\ look\ cooler.\ Players\ and\ actors\ cannot\ walk\ through\ evil\ walls\n\ \n\ I\ just\ use\ them\ in\ the\ last\ level\ because\ I\ wanted\n\ the\ last\ one\ with\ the\ mega\ ruby\ to\ be\ different\n\ \n\ @author\ Dante\ Romey\ \n\ @version\ 2019/11/16\n
+comment1.params=length\ rotation
+comment1.target=WallsEvil(int,\ int)
+comment1.text=\n\ \n\ Creates\ the\ image\ for\ the\ wall\ and\ scales\ it\n\ using\ the\ length\ param.\ \n\ \n\ Sets\ the\ wall's\ rotation\ using\ the\ rotation\ param.\n\ \n\ @param\ int\ length\n\ @param\ int\ rotation\n
+numComments=2

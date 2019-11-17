@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WinScreen
+comment0.text=\n\ A\ screen\ to\ display\ a\ message\ saying\ who\ won\n\ once\ the\ game\ has\ been\ completed\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/15\n
+comment1.params=c
+comment1.target=WinScreen(java.lang.String)
+comment1.text=\n\ Takes\ the\ string\ param\ and\ shows\ it\ as\ text\n\ (The\ string\ param\ is\ a\ message\ from\ Level5\ class\ \n\ telling\ who\ won\ and\ how\ many\ rubies\ they\ collected).\n\ Also\ sets\ the\ background\ image\ for\ the\ screen\n\ \n\ @param\ String\ C\n
+numComments=2

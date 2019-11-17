@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ This\ is\ the\ player\ class\ for\ the\ game.\n\ \n\ It\ takes\ an\ int\ in\ the\ constructor\ as\ a\ parameter\ for\ \n\ determining\ whether\ the\ player\ is\ player\ 1\ or\ player\ 2\n\ \n\ Certain\ things\ such\ as\ control\ keys\ and\ imgs\ change\n\ between\ player\ 1\ and\ 2\n\ \n\ It\ has\ all\ the\ necessary\ variables\ and\ methods\ for\ the\n\ proper\ functioning\ of\ the\ player(s)\n\ \n\ @author\ Dante\ Romey\n\ @version\ 2019/11/16\n
+comment1.params=n
+comment1.target=Player(int)
+comment1.text=\n\ Sets\ pnum\ \=\ n,\ rubies\ \=\ 0,\ cx\ &\ cy\ \=\ 0\n\ Sets\ speed\ to\ normal\ value\ (6)\n\ Creates\ pimg\ array\ of\ player's\ imgs\ for\ animation\ \n\ using\ a\ for-loop,\ and\ also\ scales\ the\ images\n\ \n\ @param\ int\ n\n
+comment10.params=
+comment10.target=void\ act()
+comment10.text=\n\ Calls\ the\ methods\ required\ for\ the\ player\n\ class\ to\ function\ properly\n
+comment2.params=
+comment2.target=void\ movement()
+comment2.text=\n\ Detects\ key-presses\ for\ player\ movement\ and\n\ moves\ player\ accordingly.\ It\ does\ movement\ by\ changing\ the\ cx\ /\ cy\n\ variables\ to\ either\ -speed\ or\ speed,\ and\ then\ setting\ the\ \n\ location\ of\ the\ Player\ to\ it's\ current\ location\ +\ cx\ and\ cy.\ \n\ This\ is\ useful\ because\ we\ can\ use\ it\ to\ easily\ do\ collision\ and\n\ other\ things\n\ \n\ Also\ calls\ the\ methods\ for\ player\ animation\n\ and\ collision\n
+comment3.params=
+comment3.target=void\ collision()
+comment3.text=\n\ Checks\ if\ player\ is\ running\ into\ a\n\ wall\ and\ if\ so,\ prevents\ them\ from\ walking\ through\ it\n\ by\ moving\ them\ backwards\ to\ their\ x\ and\ y\ minus\ cx\ and\ cy\n
+comment4.params=
+comment4.target=void\ checkSpeedItem()
+comment4.text=\n\ Checks\ if\ the\ player\ has\ "picked\ up"\n\ eiher\ a\ speed-boost\ or\ speed-slower,\n\ and\ if\ so,\ changes\ the\ player's\ speed.\n
+comment5.params=
+comment5.target=void\ checkDeath()
+comment5.text=\n\ Checks\ if\ the\ player\ has\ been\ killed\ by\ a\ ghost.\n\ If\ so,\ then\ it\ checks\ the\ player's\ rubies\ to\ see\ \n\ how\ many\ should\ be\ taken\ away\ (so\ as\ not\ to\ screw\ over\n\ players\ with\ less\ rubies),\ takes\ away\ the\ rubies,\ and\ respawns\n\ the\ player\ at\ the\ starting\ position.\n\ \n\ Also\ resets\ the\ players\ speeds,\ negating\n\ any\ speed\ buffs\ or\ debuffs\ previously\ obtained\n
+comment6.params=
+comment6.target=void\ checkTouching()
+comment6.text=\n\ Checks\ if\ the\ player\ is\ touching\ a\ \n\ trap,\ spike,\ or\ ruby/megaRuby,\ and\ adds\ or\ takes\ away\ \n\ rubies\ accordingly.\n\ \n\ It\ then\ removes\ the\ object\ hit,\ I\ did\ it\ this\ way\ \n\ to\ avoid\ a\ bug\ where\ if\ the\ object\ removed\ itself,\ \n\ it\ would\ be\ removed\ before\ the\ player\ had\ a\ chance\n\ to\ detect\ it\ and\ decrease\ its\ ruby\ score\n
+comment7.params=img1\ img2
+comment7.target=void\ anime(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment7.text=\n\ Takes\ the\ image\ parameters\ and\ swaps\ between\ them\n\ to\ create\ an\ animation\ effect.\ Used\ in\ movement\ to\n\ make\ the\ player\ look\ like\ he\ is\ walking.\n
+comment8.params=name
+comment8.target=int\ getVar(java.lang.String)
+comment8.text=\n\ Gets\ the\ integer\ value\ of\ the\ variable\ specified\n\ by\ the\ String\ parameter.\ It\ is\ more\ efficient\n\ than\ creating\ an\ accessor\ method\ for\ each\ individual\ variable\n\ \n\ @return\ int\ (variable\ value)\n
+comment9.params=name\ newv
+comment9.target=void\ setVar(java.lang.String,\ int)
+comment9.text=\n\ Gets\ changes\ the\ integer\ value\ of\ the\ variable\ specified\n\ by\ the\ String\ parameter.\ It\ is\ more\ efficient\n\ than\ creating\ a\ mutator\ method\ for\ each\ individual\ variable\n
+numComments=11
