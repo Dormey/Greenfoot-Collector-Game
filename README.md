@@ -1,2 +1,8 @@
 # Greenfoot-Collector-Game
-A collector game that I programmed for AP Computer Science class using Greenfoot and Java.
+
+I programmed this game using *Greenfoot* and Java in order to practice and use fundamental programming concepts.
+
+From Wikipedia:
+> Greenfoot is an integrated development environment using Java or Stride designed primarily for educational purposes at the high school and undergraduate level. It allows easy development of two-dimensional graphical applications, such as simulations and interactive games.
+
+This was my first major Java project.
